@@ -11,7 +11,9 @@ void main() {
         backgroundColor: Colors.amber[600],
       ),
       body: Center(
-        child: Image(image: image),
+        child: Image(
+          image: AssetImage('images/ideas.png'),
+        ),
       ),
     ),
   ));
